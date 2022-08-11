@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(Imagens/fundo.gif);
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nav_bar {
+    float: right;
+}
+
+#nav_bar li  {
+    display: inline-block;
+    margin: 8px;
+}
+
+.entrar {
+    background-color: #4887ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+}
+
+.google img {
+    display: block;
+    margin: auto;
+    clear: both;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.form {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.pesquisa {
+    width: 450px;
+    line-height: 30px;
+    border-radius: 15px;
+}
+
+.botoes {
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    border-top: solid 2px e4e4e4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 12px;
+}
+
+.footer_esquerdo {
+    float: left;
+
+}
+
+.flooter_direito {
+    float: right;
+}
