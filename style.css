@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+@media only screen and (max-device-width: 900px) {
+     .menu { width:350px; } 
+    }
+
 html {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-image: url(Imagens/fundo.gif);
-    background-size: cover;
+    background-image: linear-gradient(to left,#636A73, #BBF2ED, #636A73);
+    
 }
 
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 ul {
     list-style: none;
+    text-align: left;
 
 }
 
@@ -59,9 +65,13 @@ a:hover {
 }
 
 .pesquisa {
-    width: 450px;
+    max-width: 100%;
+    min-width: 30%;
+    padding: 1px;
+    margin: auto;
     line-height: 30px;
     border-radius: 15px;
+    text-align: center;
 }
 
 .botoes {
@@ -71,22 +81,24 @@ a:hover {
 }
 
 footer {
-    background-color: #f2f2f2;
-    border-top: solid 2px e4e4e4;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    font-size: 1em;
+    min-width: 30%;
 }
 
 footer ul li {
     display: inline;
-    color: #666666;
-    font-size: 14px;
+    color: #081826;
+    font-weight: bold;
+    font-size: auto;
     padding: 12px;
+
 }
 
 .footer_esquerdo {
     float: left;
+
 
 }
 
